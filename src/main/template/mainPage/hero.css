@@ -1,5 +1,6 @@
 @charset "UTF-8";
 #banner{
+	width:100%;
 	height: 55px; 
 	background-color: #AAAAAA;
 	display:flex;
@@ -37,19 +38,20 @@
 }
 
 #main_div{
-	
+	width:100%;
 	margin-left:auto;
 	margin-right:auto;
+	
 	
 }
 
 
 .hero_div{
 	background-color:grey;
-	margin-left:35px;
+	margin-left:45px;
 	margin-top:20px;	
-	width:250px;
-	height:390px;	
+	width:240px;
+	height:420px;	
 	font-family: 'Open Sans', sans-serif;
 	text-align:center;
 	font-size:40px;
@@ -60,20 +62,43 @@
 }
 
 .hero_div:hover{
-	width:260px;
-	height:420px;
+
+	
 	font-size:43px;
+	color:black;
 	
 }
 
 .hero_img{
-	width:170px;
+	width:180px;
 	height:280px;
 }
 .hero_img:hover{
-	width:184px;
-	height:310px;
+	width:190px;
+	height:300px;
 }
 
+#footer{
+	align:center;
+	height: 300px; 
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
 
+.footer_btt{
+	background-color:transparent;
+	border:none;
+	font-size:16px;
+	margin-left:10px;
+	margin-right:20px;
+	width:110px;
+	font-family: 'Roboto', sans-serif;
+	color:white;
+}
+
+.footer_btt:hover{
+	text-decoration:underline;
+}
 
