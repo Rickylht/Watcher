@@ -38,6 +38,42 @@
 
 #main_div{
 	
-	
+	margin-left:auto;
+	margin-right:auto;
 	
 }
+
+
+.hero_div{
+	background-color:grey;
+	margin-left:35px;
+	margin-top:20px;	
+	width:250px;
+	height:390px;	
+	font-family: 'Open Sans', sans-serif;
+	text-align:center;
+	font-size:40px;
+	color:white;	
+	float:left;
+
+	
+}
+
+.hero_div:hover{
+	width:260px;
+	height:420px;
+	font-size:43px;
+	
+}
+
+.hero_img{
+	width:170px;
+	height:280px;
+}
+.hero_img:hover{
+	width:184px;
+	height:310px;
+}
+
+
+
