@@ -1,69 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="news.css"/>
+<link rel="stylesheet" type="text/css" href="../css/hero.css"/>
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.css"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto" rel="stylesheet">
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Index</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" >
+<title>Hero</title>
+<style>
+.col-lg-3.col-md-3.col-sm-6.col-xs-12{
+	font-family: 'Open Sans', sans-serif;
+	margin-top:3%;
+	
+	color:white;	
+
+}
+
+.nav-link{
+	font-size:1.2em;
+	font-family: 'Open Sans', sans-serif;
+}
+</style>
 </head>
 <body>
-    <!-- banner -->
-	<div id = "banner">
-	 <div id="logo_div">
-		<img src="overwatch_logo.png" style = "width: 20%;margin-left:5%;" onclick="window.location.href='MainPage.html'">
-	 </div>
-	
-	 <div id="watcher">Watcher</div>
-	 
-	 <div id="banner_button"> 
-	    <button id="homepage_btt" class = "banner_btt" onclick="window.location.href='index.html'">Homepage</button>|
-	 	<button id="view_hero" class = "banner_btt" onclick="window.location.href='viewHero.html'">Hero</button>|
-	 	<button id="view_news" class ="banner_btt" onclick="window.location.href='viewNews.html'" style="color:black;">News</button>
-	 </div>
-	 <div style ="margin-left:830px;margin-top:18px;">
-	 <button id="account" class ="banner_btt">Log in</button>
-	</div>
-	</div>
-	
-	<!-- main_div -->
-	<div id="main_div">
-	
-	</div>
-	
-	
-	
-	
-	
-	
-	<!-- footer -->
-	<footer style="width:100%;margin-bottom:0px;height: 400px; 
+    <!-- Navigator -->
+   
+	<nav class="navbar navbar-expand-lg navbar-light bg-light" >
+ 		<a  class="navbar-brand" href="index.html" style="font-family: 'Open Sans', sans-serif;font-size:2em;color:#444444;"><img src="../img/overwatch_logo.png" width="50" height="50" class="d-inline-block align-top" alt=""> Watcher</a>
+
+  		 <div class="collapse navbar-collapse" id="navbarNavDropdown" >
+    		<ul class="navbar-nav">
+      			<li class="nav-item">
+        			<a class="nav-link" href="index.html">Home</a>
+     			</li>
+      			<li class="nav-item">
+       				 <a class="nav-link" href="viewHero.html">Hero</a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link active" href="#">News<span class="sr-only">(current)</span></a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link" href="#">User</a>
+      			</li>
+      			
+    		</ul>
+    		</div>
+   </nav>
+   
+   
+   
+   <!-- footer -->
+	<footer style="width:100%;margin-bottom:0;height:300px; 
 	        background-color: #AAAAAA;
 			margin-left:auto;
 			margin-right:auto;
-			margin-top:50px;
+			margin-top:5%;
 			display:inline-block;"
 			>
-		<div id="footer">
 		
-		
-		
-		<img src="overwatch-logo-big.png" style = "width: 200px;margin-left:350px;margin-top:30px;">
+		 <img src="../img/overwatch-logo-big.png" style = "width:17%;margin-left:41.5%;"/>
+
 	    
-		<table style="margin-left:auto;margin-right:auto; color:white;font-size:16px;font-family: 'Roboto', sans-serif;" >
+		<table style="margin-left:auto;margin-right:auto; color:white;font-size:1.3em;font-family: 'Roboto', sans-serif;" >
 			<tr><td><button class="footer_btt">ABOUT</button>|
 		        <td><button class="footer_btt">CONTACT US</button>|
 		        <td><button class="footer_btt">PRIVACY</button>
 		
 		</table>
+		<br><br>
 		
-		</div>
-		<p style="margin-top:0px;text-align:center;">©2019 ASSIGNMENT3, GROUP 1. ALL RIGHTS RESERVED.</p>
-		<table style="margin-left:auto;margin-right:auto;color:black;">
-		 <tr><td>KONG YU | <td>LU HUITONG |<td>YUAN ZUN
-		</table>
+		<p style="margin-top:0px;text-align:center;font-size:1.1em;">©2019 ASSIGNMENT3, GROUP 1. ALL RIGHTS RESERVED.</p>
+		<p style="margin-top:0px;text-align:center;font-size:1.1em;">KONG YU |LU HUITONG |YUAN ZUN</p>
+		
 	</footer>
+	
 
 </body>
 </html>
