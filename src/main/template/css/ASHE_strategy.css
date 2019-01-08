@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+
+.footer_btt{
+	background-color:transparent;
+	border:none;
+	font-family: 'Roboto', sans-serif;
+	color:white;
+}
+
+.footer_btt:hover{
+	text-decoration:underline;
+}
