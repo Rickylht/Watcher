@@ -1,6 +1,6 @@
 @charset "UTF-8";
 #banner{
-	height: 10%; 
+	height: 55px; 
 	background-color: #AAAAAA;
 	display:flex;
 	margin-left:auto;
@@ -9,17 +9,17 @@
 
 #watcher{
 	font-family: 'Open Sans', sans-serif;
-	font-size:1.5em;
+	font-size:35px;
 	color:white;
 	margin-top:2px;
 	margin-left:20px;
 }
 
 #banner_button{
-	margin-left:5%;
-	margin-top:5%;
+	margin-left:10px;
+	margin-top:18px;
 	color:white;
-	font-size:1em;
+	font-size:20px;
 }
 
 .banner_btt{
@@ -35,6 +35,16 @@
 	color:grey;
 }
 
+#main_div{
+	margin-top:20px;
+	background-image:url("ashe_background.jpg");
+	background-size:100% 100%;
+    width:100%;
+	height:1000px;
+	background-color: rgba(255,255,255,0.7);
+	background-blend-mode: lighten;
+	
+}
 
 
 
