@@ -2,193 +2,282 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="hero.css"/>
+<link rel="stylesheet" type="text/css" href="bootstrap.css"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto" rel="stylesheet">
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" >
 <title>Hero</title>
+<style>
+.col-lg-3.col-md-3.col-sm-6.col-xs-12{
+	
+	font-family: 'Open Sans', sans-serif;
+	margin-top:5%;
+	font-size:2.5em;
+	color:white;	
+
+}
+
+
+</style>
 </head>
 <body>
-    <div id = "banner">
-	 <div id="logo_div">
-		<img src="overwatch_logo.png" style = "width: 55px; margin-top:0px;margin-left:10px;" onclick="window.location.href='index.html'">
-	 </div>
-	
-	 <div id="watcher">Watcher</div>
-	 
-	 <div id="banner_button"> 
-	    <button id="homepage_btt" class = "banner_btt" onclick="window.location.href='index.html'">Homepage</button>|
-	 	<button id="view_hero" class = "banner_btt" onclick="window.location.href='viewHero.html'" style="color:black;">Hero</button>|
-	 	<button id="view_news" class ="banner_btt" onclick="window.location.href='viewNews.html'">News</button>
-	 </div>
-	 <div style ="margin-left:830px;margin-top:18px;">
-	 <button id="account" class ="banner_btt">Log in</button>
-	</div>
-	</div>
-	
+    <!-- Navigator -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light" >
+ 		<a class="navbar-brand" href="window.location.href='index.html" style="font-family: 'Open Sans', sans-serif;"><img src="overwatch_logo.png" width="30" height="30" class="d-inline-block align-top" alt=""> Watcher</a>
+
+  		 <div class="collapse navbar-collapse" id="navbarNavDropdown" >
+    		<ul class="navbar-nav">
+      			<li class="nav-item">
+        			<a class="nav-link" href="index.html">Home</a>
+     			</li>
+      			<li class="nav-item active">
+       				 <a class="nav-link" href="#">Hero<span class="sr-only">(current)</span></a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link" href="viewNews.html">News</a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link" href="#">User</a>
+      			</li>
+      			
+    		</ul>
+    		</div>
+   </nav>
+    
+
 	<!-- main_div -->
-	<div id="main_div">
-	    
-		<div class = "hero_div">
-		   <P>ANA
+	
+	 <div class="container">
+	 	<div class ="row">
+	 	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+	 	    <div class="hero_div">
+		   	<P>ANA
 			<a href =''>
 			<img src="./portrait/ANAportrait.png" class="hero_img" style="margin-left:0px;"></a>	
-		</div>
-		
-		<div class = "hero_div">
-		   <P>ASHE
-			<a href =''>
+			</div>	
+	 	</div>
+	 	
+	 	
+	 	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" style="background-color:grey;">
+		   	 <div class="hero_div">
+		   	<P>ASHE
+			<a href ='./heroStrategy/ASHE_strategy.html'>
 			<img src="./portrait/ASHEportrait.png" class="hero_img"></a>	
-		</div>
-		
-		<div class = "hero_div">
-		   <P>BASTION
+			</div>	
+	 	</div>
+	 	
+	 	
+	 	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+	 	    <div class="hero_div">
+	 		<P>BASTION
 			<a href =''>
 			<img src="./portrait/BASTIONportrait.png" class="hero_img"></a>	
-		</div>
-	    
-	    <div class = "hero_div">
-		   <P>BRIGITTE
+			</div>
+	 	</div>
+	 	
+	 	
+	 	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+	 	    <div class="hero_div">
+	 		<P>BRIGITTE
 			<a href =''>
-			<img src="./portrait/BRIGITTEportrait.png" class="hero_img"></a>	
-		</div>
-		
-		<div class = "hero_div">
-		   <P>D.VA
+			<img src="./portrait/BRIGITTEportrait.png" class="hero_img"></a>
+			</div>
+	 	</div>
+	 	
+	 	
+	 	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+	 	   <div class="hero_div">
+	 		<P>D.VA
 			<a href =''>
-			<img src="./portrait/D.VAportrait.png" class="hero_img"></a>	
-		</div>
-		
-		
-	   <!-- CHANGE LINE -->
-	    <div style="display:inline-block; width:1500px;height:50px;"></div>
-	    
-	    <div class = "hero_div">
+			<img src="./portrait/D.VAportrait.png" class="hero_img"></a>
+			</div>
+	 	</div>
+	 	
+	 	
+	 	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+	 		<div class = "hero_div">
 		   <P>DOOMFIST
 			<a href =''>
 			<img src="./portrait/DOOMFISTportrait.png" class="hero_img"></a>	
 		</div>
-		
-		<div class = "hero_div">
+		</div>
+	 	
+	 	
+	 	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+	 		<div class = "hero_div">
 		   <P>GENJI
 			<a href =''>
 			<img src="./portrait/GENJIportrait.png" class="hero_img" ></a>	
 		</div>
-		
-		<div class = "hero_div">
+	 	</div>
+	 	
+	 	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+	 		<div class = "hero_div">
 		   <P>HANZO
 			<a href =''>
 			<img src="./portrait/HANZOportrait.png" class="hero_img" ></a>	
 		</div>
-	   
-	   <div class = "hero_div">
+	 	</div>
+	 	
+	 	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+	 		<div class = "hero_div">
 		   <P>JUNKRAT
 			<a href =''>
 			<img src="./portrait/JUNKRATportrait.png" class="hero_img" ></a>	
 		</div>
-		
-		<div class = "hero_div">
+	 	</div>
+	 	
+	 	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+	 		<div class = "hero_div">
 		   <P>LUCIO
 			<a href =''>
 			<img src="./portrait/LUCIOportrait.png" class="hero_img" ></a>	
 		</div>
-		
-		<!-- CHANGE LINE -->
-	    <div style="display:inline-block; width:1500px;height:50px;"></div>
-	    
-	    <div class = "hero_div">
+	 	</div>
+	 	
+	 	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+	 		<div class = "hero_div">
 		   <P>MCCREE
 			<a href =''>
 			<img src="./portrait/MCCREEportrait.png" class="hero_img" ></a>	
 		</div>
-		
-		<div class = "hero_div">
+	 	</div>
+	 	
+	 	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+	 		<div class = "hero_div">
 		   <P>MEI
 			<a href =''>
 			<img src="./portrait/MEIportrait.png" class="hero_img" ></a>	
 		</div>
-		
-		<div class = "hero_div">
+	 	</div>
+	 	
+	 	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+	 		<div class = "hero_div">
 		   <P>MERCY
 			<a href =''>
 			<img src="./portrait/MERCYportrait.png" class="hero_img" ></a>	
 		</div>
-		
-		<div class = "hero_div">
+	 	</div>
+	 	
+	 	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+	 		<div class = "hero_div">
 		   <P>MOIRA
 			<a href =''>
 			<img src="./portrait/MOIRAportrait.png" class="hero_img" ></a>	
 		</div>
-		
-		<div class = "hero_div">
+	 	</div>
+	 	
+	 	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+	 		<div class = "hero_div">
 		   <P>ORISA
 			<a href =''>
 			<img src="./portrait/ORISAportrait.png" class="hero_img" ></a>	
 		</div>
-		
-		<!-- CHANGE LINE -->
-	    <div style="display:inline-block; width:1500px;height:50px;"></div>
-	    
-	    <div class = "hero_div">
+	 	</div>
+	 	
+	 	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+	 		<div class = "hero_div">
 		   <P>PHARAH
 			<a href =''>
 			<img src="./portrait/PHARAHportrait.png" class="hero_img" ></a>	
 		</div>
-		
-		<div class = "hero_div">
+	 	</div>
+	 	
+	 	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+	 		<div class = "hero_div">
 		   <P>REAPER
 			<a href =''>
 			<img src="./portrait/REAPERportrait.png" class="hero_img" ></a>	
 		</div>
-		
-		<div class = "hero_div">
+	 	</div>
+	 	
+	 	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+	 		<div class = "hero_div">
 		   <P>REINHARDT
 			<a href =''>
 			<img src="./portrait/REINHARDTportrait.png" class="hero_img" ></a>	
 		</div>
-		
+	 	</div>
+	 	
+	 	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+	 		
 		<div class = "hero_div">
 		   <P>ROADHOG
 			<a href =''>
 			<img src="./portrait/ROADHOGportrait.png" class="hero_img" ></a>	
 		</div>
-		
-		<div class = "hero_div">
+	 	</div>
+	 		
+	 	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+	 		<div class = "hero_div">
 		   <P>SOLDIER 76
 			<a href =''>
 			<img src="./portrait/SOLDIER 76portrait.png" class="hero_img" ></a>	
 		</div>
+	 	</div>
+	 	
+	 	</div>
+	 </div>
+	
 		
 		
-	</div>
+	   
+		
+		
+	   
+	   
+		
+		
+	    
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	    
+	    
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
 	
 	
 
 	<!-- footer -->
-	<footer style="width:100%;margin-bottom:0px;height: 400px; 
+	<footer style="width:100%;margin-bottom:0;height:300px; 
 	        background-color: #AAAAAA;
 			margin-left:auto;
 			margin-right:auto;
-			margin-top:50px;
+			margin-top:5%;
 			display:inline-block;"
 			>
-		<div id="footer">
 		
-		
-		
-		<img src="overwatch-logo-big.png" style = "width: 200px;margin-left:350px;margin-top:30px;">
+		 <img src="overwatch-logo-big.png" style = "width:17%;margin-left:41.5%;"/>
+
 	    
-		<table style="margin-left:auto;margin-right:auto; color:white;font-size:16px;font-family: 'Roboto', sans-serif;" >
+		<table style="margin-left:auto;margin-right:auto; color:white;font-size:1.3em;font-family: 'Roboto', sans-serif;" >
 			<tr><td><button class="footer_btt">ABOUT</button>|
 		        <td><button class="footer_btt">CONTACT US</button>|
 		        <td><button class="footer_btt">PRIVACY</button>
 		
 		</table>
+		<br><br>
 		
-		</div>
-		<p style="margin-top:0px;text-align:center;">©2019 ASSIGNMENT3, GROUP 1. ALL RIGHTS RESERVED.</p>
-		<table style="margin-left:auto;margin-right:auto;color:black;">
-		 <tr><td>KONG YU | <td>LU HUITONG |<td>YUAN ZUN
-		</table>
+		<p style="margin-top:0px;text-align:center;font-size:1.1em;">©2019 ASSIGNMENT3, GROUP 1. ALL RIGHTS RESERVED.</p>
+		<p style="margin-top:0px;text-align:center;font-size:1.1em;">KONG YU |LU HUITONG |YUAN ZUN</p>
+		
 	</footer>
 	
 
