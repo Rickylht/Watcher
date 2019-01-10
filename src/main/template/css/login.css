@@ -1,6 +1,6 @@
 @charset "UTF-8";
 #main_div{
-	background-image:url("background.jpg");
+	background-image:url("../img/background.jpg");
 	background-size:100% 100%;
     position:fixed;
     left:0px;
